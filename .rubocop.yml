@@ -1,0 +1,9 @@
+Naming/FileName:
+  Exclude:
+    - lib/rubocop-predix_ci.rb
+
+Style/ExpandPathArguments:
+  Enabled: false
+
+Style/MutableConstant:
+  Enabled: false
