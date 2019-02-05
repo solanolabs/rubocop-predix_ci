@@ -34,6 +34,9 @@ cop. For example:
 ```yaml
 PredixCi/NotUnless:
   Enabled: false
+
+PredixCi/AuthenticateUserExcept:
+  Enabled: true
 ```
 
 ## Development
