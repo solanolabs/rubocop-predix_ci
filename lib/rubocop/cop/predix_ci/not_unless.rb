@@ -3,6 +3,7 @@
 module RuboCop
   module Cop
     module PredixCi
+      #
       # Checks for uses of unless with a negated condition.
       #
       # @example
@@ -26,6 +27,7 @@ module RuboCop
       #   # good
       #
       #   bar if !foo
+      #
       class NotUnless < Cop
         MSG = 'Favor `if !` over `unless` for negative conditions.'
 
